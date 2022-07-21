@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+/*************************************
+*************Common
+****************************************/
+
+body {
+    width: 90%;
+    margin: auto;
+    
+}
+.heading {
+   margin: 2rem 0rem; 
+}
+
+.heading h2{
+    font-family: "Roboto" !important;
+    font-weight: 600;
+}
+
+span{
+    color:aqua;
+}
+
+nav{
+    display:flex;
+    margin: 20px;
+}
+nav .list{
+    display: flex;
+    gap: 1rem;
+    width : 50%;
+    justify-content: flex-end;
+}
+
+.portfolio{
+    width:50%;
+    font-size: 1.5em;
+    font-weight: 700;
+   
+}
+
+main {
+    width: 80%;
+    margin: 1rem auto;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+
+.flex-img img {
+    width: 400px;
+    border-radius: 50%;
+    
+}
+
+div .icon{
+    width:50%;
+}
+
+.intro p {
+    font-size: 30px;
+}
+
+.intro .buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro .buttons button{
+    padding: .5rem 1rem;
+    color: white;
+    background-color: #00ABAE;
+    border: none;
+}
+
+.skills{
+    display:flex;
+    justify-content: space-between;
+    gap: .9rem;
+    text-align: justify;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    place-items: center;
+    gap: 1rem;
+}
+
+.logos img {
+    width: 100%;
+}
+.project1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.project1 .twitter-clone{
+    text-align: justify;
+}
+
+
+.project1 .twitter-clone {
+    flex-basis: 40%;
+}
+
+
+.project1 .twitter-clone-project-pic {
+    flex-basis: 40%;
+}
+
+.project1 .twitter-clone-project-pic img {
+    width: 100%;
+}
+
+
+.What-I-do2 .heading{
+    margin-bottom: 1rem;
+}
+
+.project1 .twitter-clone h4{
+    margin-bottom: 1rem;
+}
+
+.bottom{
+    text-align: center;
+
+}
+
+.bottom h2{
+    font: #303030;
+}
+
+
+
+.What-I-do2 .project1 .buttons button{
+    padding: .5rem 1rem;
+    color: white;
+    background-color: #00ABAE;
+    border: none;
+
+}
+
+.small-logo{
+    text-align: center;
+    width: 100%;
+}
+
+.small-logo img{
+    height: 25px;
+}
+
+
+.line-bottom{
+    text-align: center;
+}
