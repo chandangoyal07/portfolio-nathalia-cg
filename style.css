@@ -12,9 +12,13 @@ body {
     margin: auto;
     
 }
+
+/* To give space between skills
+ and technical skills */
+
 .heading {
-   margin: 2rem 0rem; 
-}
+    margin: 2rem 0rem; 
+ }
 
 .heading h2{
     font-family: "Roboto" !important;
@@ -25,19 +29,26 @@ span{
     color:aqua;
 }
 
+/* to give margin to Portfolio from top */
+
 nav{
     display:flex;
     margin: 20px;
 }
+/* This property is also for nav */
 nav .list{
-    display: flex;
+   display: flex;
     gap: 1rem;
     width : 50%;
     justify-content: flex-end;
+    
 }
 
+
+
 .portfolio{
-    width:50%;
+    width:50%;   /* when we are providing width for
+                    class it is width for that whole class */
     font-size: 1.5em;
     font-weight: 700;
    
@@ -47,9 +58,10 @@ main {
     width: 80%;
     margin: 1rem auto;
 }
-.about {
-    display: flex;
-    justify-content: center;
+
+.about{
+    display:flex;
+    justify-content: space-between;
     width: 100%;
     margin: 1rem auto;
 }
@@ -72,6 +84,7 @@ div .icon{
 .intro .buttons {
     display: flex;
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 .intro .buttons button{
@@ -163,4 +176,30 @@ div .icon{
 
 .line-bottom{
     text-align: center;
+}
+
+@media screen and (max-width:500px){
+     nav .portfolio{
+        font-size:1rem;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .flex-img img {
+        width: 280px;
+    }
+    .intro p {
+        font-size: 23px;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .logos {
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+    }
+    .project1 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
 }
